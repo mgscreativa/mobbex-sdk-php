@@ -1,0 +1,24 @@
+{
+  "name": "mobbex/sdk",
+  "description": "Mobbex SDK Api Integration Library",
+  "license": "MIT",
+	"keywords": ["mobbex", "sdk"],
+	"authors": [
+		{
+			"name": "Martin Briglia",
+			"email": "martin@mgscreativa.com"
+		},
+		{
+			"name": "MGS Creativa",
+			"email": "info@mgscreativa.com"
+		}
+	],
+	"require": {
+		"ext-curl": "*"
+	},
+	"autoload": {
+		"classmap": [
+			"lib/mobbex.php"
+		]
+	}
+}
